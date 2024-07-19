@@ -1,10 +1,11 @@
 {
   "name": "@wangzhsh19771225/crv-i18n",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "i18n functions of crv form",
   "module": "index.js",
   "scripts": {
-    "build": "npx rollup -c"
+    "build": "npx rollup -c",
+    "publish":"npm publish --access public"
   },
   "files": [
     "index.js"
